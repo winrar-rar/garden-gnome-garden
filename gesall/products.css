@@ -1,0 +1,38 @@
+#image_icon {
+	width: 7em;
+	height: 7em;
+	border: 1px solid black;
+	/*margin: auto;*/
+}
+#headline {
+	text-align: center;
+	color: #f84f4f;
+
+}
+#productDiv {
+	display: flex;
+	margin: auto;
+	/*border: 1px solid red;*/
+	background-color: #486AAD;
+	width: 20em;
+	margin-top: 0.5em;
+}
+#productDiv a {
+	text-decoration: none;
+	color: #ffe463;
+	margin: auto;
+}
+#pageDiv a{
+	text-decoration: none;
+	color: black;
+}
+#pageDiv {
+	/*display: inline-block;*/
+	/*display: flex;*/
+	text-align: center;
+	/*border: 1px solid green;*/
+	width: 20em;
+	padding: 0.1em;
+	margin: auto;
+	margin-top: 3em;
+}

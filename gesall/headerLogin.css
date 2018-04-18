@@ -1,0 +1,83 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+header {
+	display: flex;
+	width: 100%;
+	height: 3.5em;
+	margin-top: 0;
+	padding: 0;
+	border: 0;
+	border-bottom-style: solid;
+	border-bottom-width: 0.5em;
+	border-bottom-color: #486AAD; 
+}
+#GGG_image {
+	width: 4.5em;
+	height: 4.5em;
+	margin-left: 1em;
+	margin-top: 1em;
+	padding: 0;
+}
+#GGG_text {
+	margin-top: 0.5em;
+	margin-left: 0.5em;
+	font-family: 'Alex Brush';
+	font-size: 2em;
+
+}
+#logReg, #welcome {
+	margin-left: auto;
+	text-align: right;
+	margin-top: auto;
+	margin-bottom: 0;
+	padding: 0;
+}
+#logReg a{
+	text-decoration: none;
+	margin-bottom: 0;
+	padding: 0;
+	margin-right: 3em;
+	color: black;
+}
+
+#logReg a:hover, #logReg a:active{
+	color: black;
+}
+#welcome a {
+	text-decoration: none;
+	margin-bottom: 0;
+	padding: 0;
+	margin-right: 3em;
+	color: red;
+}
+
+#welcome a:hover, #welcome a:active {
+	color: red;
+}
+
+/* Navigation Menu */
+#navigation_menu {
+	list-style-type: none;
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #486AAD;
+}
+
+#navigation_menu li {
+	/*Makes the links horizontal*/
+	display: inline;
+
+}
+
+#navigation_menu li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 0.5em;
+	text-decoration: none;
+}

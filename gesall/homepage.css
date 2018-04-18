@@ -1,0 +1,86 @@
+#slider {
+	height: 100%;
+	/*display: flex;*/
+	margin-top: 0 auto;
+	background-color: #e5e5eb;
+}
+/*Content slider*/
+#wrapper {
+    width: 103.6em;
+
+    transform: translate3d(0, 0, 0);
+    transition: transform .5s ease-in-out;
+}
+.content {
+    float: left;
+    width: 34.4em;
+    /*height: 350px;*/
+    height: 25em;
+    white-space: normal;
+    background-repeat: no-repeat;
+}
+#itemOne {
+    background-color: #ADFF2F;
+    background-image: url("Images/gnomehero.jpg");
+}
+#itemTwo {
+    background-color: #FF7F50;
+    background-image: url("Images/gnomegarden.jpg");
+}
+#itemThree {
+    background-color: #1E90FF;
+    background-image: url("Images/gnomes.jpg");
+}
+#contentContainer {
+    width: 34.4em;
+    height: 21.5em;
+    overflow: hidden;
+    margin: auto;
+    padding-top: 1em;
+}
+#navLinks {
+    text-align: center;
+    width: 34.4em;
+    margin: auto;
+}
+    #navLinks ul {
+        margin: 0px;
+        padding: 0px;
+        display: inline-block;
+        margin-top: 6px;
+    }
+        #navLinks ul li {
+            float: left;
+            text-align: center;
+            margin: 10px;
+            list-style: none;
+            cursor: pointer;
+            background-color: #CCCCCC;
+            padding: 5px;
+            border-radius: 50%;
+            border: 1px solid #ccc;
+        }
+
+            #navLinks ul li.active {
+                background-color: #486AAD;
+                color: #FFFFFF;
+                outline-width: 7px;
+                border: 1px solid #233c8c;
+            }
+h2 {
+	text-align: center;
+}
+article {
+	display: flex;
+	margin: 0;
+	padding: 0;
+
+}
+section {
+	border: 1px solid black;
+	width: 30em;
+	margin: 3em;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 1em;
+}

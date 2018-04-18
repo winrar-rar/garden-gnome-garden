@@ -1,0 +1,39 @@
+body {
+	margin: 0;
+	padding: 0;
+	/*background-color: #486AAD;*/
+}
+
+#f_container{
+	width: 25em;
+	height: 40em;
+	margin-top: 3em;
+	margin-right: auto;
+	margin-left: auto;
+	/*border: solid 1px black;*/
+	background-color: white;
+
+}
+
+#f_container label {
+    float: left;
+    clear: left;
+    width: 8em;
+    height: 1.5em;
+    margin-top: 1em;
+    margin-left: 15%;
+
+}
+
+#f_container .input {
+	display: inline-block;
+	float: left;
+	margin-top: 1em;
+}
+
+#submitB {
+	float: left;
+	clear: left;
+	margin-left: 15%;
+	margin-top: 1em;
+}
